@@ -1,59 +1,56 @@
-# Ejemplo de Android con Jetpack Compose - Curso Código Facilito (Actualizado)
+# Android Example with Jetpack Compose - Código Facilito Course (Updated)![Jetpack Compose Logo](https://developer.android.com/images/jetpack/compose/compose-hero.png) <!-- You can change this image if you want -->
 
-![Jetpack Compose Logo](https://developer.android.com/images/jetpack/compose/compose-hero.png) <!-- Puedes cambiar esta imagen si quieres -->
+## Description
 
-## Descripción
+This repository contains the example code developed during the updated **Android with Jetpack Compose** course taught by [Código Facilito](https://codigofacilito.com/). The main objective is to demonstrate the functionalities and best practices when building native user interfaces on Android using the modern declarative Jetpack Compose toolkit.
 
-Este repositorio contiene el código de ejemplo desarrollado durante el curso actualizado de **Android con Jetpack Compose** impartido por [Código Facilito](https://codigofacilito.com/). El objetivo principal es mostrar las funcionalidades y buenas prácticas al construir interfaces de usuario nativas en Android utilizando el moderno toolkit declarativo Jetpack Compose.
+Throughout the examples, various key concepts of Jetpack Compose are explored, from creating basic components to implementing navigation, state management, and integration with other Jetpack libraries.
 
-A lo C
-largo de los ejemplos, se exploran diversos conceptos clave de Jetpack Compose, desde la creación de componentes básicos hasta la implementación de navegación, manejo de estado y la integración con otras bibliotecas de Jetpack.
+## Course Content (and of this Repository)
 
-## Contenido del Curso (y de este Repositorio)
+This repository is structured to reflect the topics covered in the course. You will find examples of:
 
-Este repositorio está estructurado para reflejar los temas cubiertos en el curso. Podrás encontrar ejemplos de:
-
-*   **Fundamentos de Jetpack Compose:**
+*   **Jetpack Compose Fundamentals:**
     *   Composable functions (`@Composable`)
-    *   Layouts básicos (Column, Row, Box)
+    *   Basic Layouts (Column, Row, Box)
     *   Modifiers (`Modifier`)
-    *   Manejo de estado (`remember`, `mutableStateOf`)
-    *   Recomposición
-*   **Componentes de UI Comunes:**
-    *   Textos (`Text`)
-    *   Botones (`Button`, `IconButton`, etc.)
-    *   Imágenes (`Image`)
-    *   Campos de texto (`TextField`, `OutlinedTextField`)
-    *   Listas (`LazyColumn`, `LazyRow`)
+    *   State Management (`remember`, `mutableStateOf`)
+    *   Recomposition
+*   **Common UI Components:**
+    *   Texts (`Text`)
+    *   Buttons (`Button`, `IconButton`, etc.)
+    *   Images (`Image`)
+    *   Text Fields (`TextField`, `OutlinedTextField`)
+    *   Lists (`LazyColumn`, `LazyRow`)
     *   Scaffold, TopAppBar, BottomNavigation
-*   **Navegación con Compose Navigation:**
-    *   Configuración del `NavController`
-    *   Definición de rutas y destinos
-    *   Paso de argumentos entre pantallas
-*   **Tematización y Estilos:**
-    *   Uso de `MaterialTheme` (Material 2 o Material 3)
-    *   Personalización de colores, tipografía y formas
-*   **Manejo de Estado Avanzado:**
+*   **Navigation with Compose Navigation:**
+    *   `NavController` Setup
+    *   Defining routes and destinations
+    *   Passing arguments between screens
+*   **Theming and Styling:**
+    *   Using `MaterialTheme` (Material 2 or Material 3)
+    *   Customizing colors, typography, and shapes
+*   **Advanced State Management:**
     *   State hoisting
     *   ViewModels (`viewModel()`)
-    *   Flujos de datos (StateFlow, SharedFlow)
-*   **Efectos Secundarios (Side-effects):**
+    *   Data Flows (StateFlow, SharedFlow)
+*   **Side-effects:**
     *   `LaunchedEffect`
     *   `DisposableEffect`
     *   `rememberCoroutineScope`
-*   **Integración con otras bibliotecas Jetpack:**
-    *   (Si aplica, menciona bibliotecas como Room, Retrofit con Coroutines, etc.)
-*   **Buenas prácticas y arquitectura recomendada.**
+*   **Integration with other Jetpack libraries:**
+    *   (If applicable, mention libraries like Room, Retrofit with Coroutines, etc.)
+*   **Best practices and recommended architecture.**
 
-*(Puedes ajustar esta lista según el contenido exacto de tu curso y repositorio)*
+*(You can adjust this list according to the exact content of your course and repository)*
 
-## Requisitos Previos
+## Prerequisites
 
-*   Android Studio [versión recomendada por el curso, ej: Iguana | 2023.2.1 o superior]
-*   Conocimientos básicos de Kotlin
-*   (Opcional) Familiaridad con los conceptos básicos de desarrollo Android (Activities, Lifecycles)
+*   Android Studio [course recommended version, e.g., Iguana | 2023.2.1 or higher]
+*   Basic knowledge of Kotlin
+*   (Optional) Familiarity with basic Android development concepts (Activities, Lifecycles)
 
-## Cómo Empezar
+## How to Get Started
 
-1.  **Clona el repositorio:**
+1.  **Clone the repository:**
     
